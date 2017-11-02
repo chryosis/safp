@@ -1,5 +1,14 @@
-#topArt {
-	background-color: #2e5f97;
+#topBar {
+	background-color: #002859;
 	color: white;
 	font-size: 24px;
+}
+
+#missionText {
+	background-color: #002859;
+	color: white;
+	height: 96px;
+	padding-left: 200px;
+	text-align: right;
+	font-style: italic;
 }
