@@ -1,14 +1,50 @@
-#topBar {
+#bannerRow {
 	background-color: #002859;
-	color: white;
-	font-size: 24px;
 }
 
-#missionText {
-	background-color: #002859;
-	color: white;
-	height: 96px;
-	padding-left: 200px;
-	text-align: right;
-	font-style: italic;
+#banner {
+	padding-bottom: 5px;
+}
+
+#safpBannerCol {
+	background-color: #92B1CD;
+}
+
+#safpText {
+	color: #FFFFFF;
+}
+
+.tdcButton {
+	background-image: linear-gradient(#3E5C81, #022A5A);
+	width: 230px;
+	height: 50px;
+	color: #FFFFFF;
+	border: 1px solid #666666;
+	border-radius: 5px;
+}
+
+.tdcButton:hover {
+	background-image: linear-gradient(#ADC4D9, #93B2CD);
+}
+
+.tdcButton:focus {
+	outline: none;
+}
+
+.buttonHolder {
+	padding-bottom: 5px;
+}
+
+#carouselExampleIndicators {
+	background-color: black;
+}
+
+.imageAdjust {
+	width: 500px;
+	height: 200px;
+	object-fit: contain;
+}
+
+.carousel .item{
+    height: 400px;
 }
