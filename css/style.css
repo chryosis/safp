@@ -45,6 +45,8 @@
 	object-fit: contain;
 }
 
-.carousel .item{
-    height: 400px;
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
 }
