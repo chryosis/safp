@@ -29,9 +29,11 @@
 
 .tdcButton:focus {
 	outline: none;
+	background-image: linear-gradient(#ADC4D9, #93B2CD);
 }
 
 .buttonHolder {
+	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
@@ -51,4 +53,13 @@
     position: relative;
     left: auto;
     right: auto;
+}
+
+#buttonFluid {
+	background-color: #92B1CD;
+	margin-top: 5px;
+}
+
+.indent {
+	text-indent: 25px;
 }
